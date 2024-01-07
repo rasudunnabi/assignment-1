@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.banner {
+  height: 750px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/Banner\ Image.png);
+  margin: 50px 140px 0px 140px;
+  background-position: center, center;
+  border-radius: 16px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+}
+.banner-greeting {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 270px;
+  margin: 10px;
+}
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px 140px 0px 140px;
+}
+.offer-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.offer-des {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.offer-cat {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.invite {
+  height: 600px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/Vectorrr.png);
+  margin: 50px 140px 0px 140px;
+  background-position: center, center;
+  border-radius: 16px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  margin-top: 120px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.invite-btn {
+  padding: 12px 16px;
+  margin-left: 126px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  border-color: #ffffff75;
+}
+.invite-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-left: 126px;
+  margin-bottom: 24px;
+}
+.invite-des {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 126px;
+  margin-bottom: 24px;
+}
+.y2024 {
+  margin-left: 250px;
+  margin-bottom: 3px;
+}
+.schedule-container {
+  height: 600px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin: 50px 140px 0px 140px;
+  background-position: center, center;
+  border-radius: 16px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  margin-top: 120px;
+  text-align: center;
+}
+.schedule-btn {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+.schedule-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 165px;
+  line-height: 56px;
+}
+.red {
+  color: #f00;
+}
+.soon {
+  margin: 50px 140px 0px 140px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+.soon-col {
+  width: 33%;
+}
+.soon-img {
+  border-radius: 463px;
+  border: 10px solid #f00;
+  padding: 20px;
+}
+.new-offer-title {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.soon-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 22px;
+}
+.soon-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 32px;
+}
+.year-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 130px;
+  margin-bottom: 15px;
+  margin-top: 70px;
+}
+.year-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-left: 130px;
+  margin-bottom: 43px;
+}
+.wish-icon {
+  position: relative;
+  right: 69px;
+}
+.sale-header {
+  margin: 120px 140px 0px 140px;
+  text-align: center;
+}
+.sale-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.sale-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.sale-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.discount-banner {
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  margin: 120px 140px 0px 140px;
+  position: relative;
+}
+.girl {
+  position: absolute;
+  top: -15px;
+  left: 1194px;
+}
+.gift {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  width: 800px;
+}
+.dis50 {
+  position: absolute;
+  top: 55px;
+  left: 1040px;
+}
+.redbox {
+  position: absolute;
+  width: 1623px;
+  top: 418px;
+}
