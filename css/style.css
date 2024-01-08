@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+
+/* header section */
+
 .banner {
   height: 750px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -28,6 +31,11 @@
   font-size: 72px;
   font-weight: 900;
 }
+
+/* main section */
+
+/* offer section */
+
 .offer {
   display: flex;
   flex-direction: column;
@@ -55,6 +63,9 @@
   font-weight: 700;
   margin-bottom: 48px;
 }
+
+/* invite section */
+
 .invite {
   height: 600px;
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -107,6 +118,9 @@
   margin-left: 250px;
   margin-bottom: 3px;
 }
+
+/* party schedule section */
+
 .schedule-container {
   height: 600px;
   background: linear-gradient(
@@ -151,6 +165,9 @@
 .red {
   color: #f00;
 }
+
+/* upcoming offer section */
+
 .soon {
   margin: 50px 140px 0px 140px;
   display: flex;
@@ -159,7 +176,7 @@
   text-align: center;
 }
 .soon-col {
-  width: 33%;
+  width: 33.33%;
 }
 .soon-img {
   border-radius: 463px;
@@ -196,7 +213,7 @@
   font-size: 48px;
   font-weight: 700;
   text-align: left;
-  margin-left: 130px;
+  margin-left: 100px;
   margin-bottom: 15px;
   margin-top: 70px;
 }
@@ -207,13 +224,16 @@
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  margin-left: 130px;
+  margin-left: 100px;
   margin-bottom: 43px;
 }
 .wish-icon {
   position: relative;
-  right: 69px;
+  right: -25px;
 }
+
+/* sale section */
+
 .sale-header {
   margin: 120px 140px 0px 140px;
   text-align: center;
@@ -269,6 +289,9 @@
   width: 1623px;
   top: 418px;
 }
+
+/* product section */
+
 .product {
   margin: 120px 140px 0px 140px;
 }
@@ -312,6 +335,9 @@
 .pro-img:hover {
   opacity: 0.5;
 }
+
+/* subscribe section */
+
 .subscribe {
   height: 600px;
   background: rgba(255, 0, 0, 0.05);
@@ -385,6 +411,9 @@
   font-weight: 400;
   text-align: left;
 }
+
+/* footer section */
+
 footer {
   background: #070211;
   color: #fff;
