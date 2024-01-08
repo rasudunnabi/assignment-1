@@ -303,8 +303,7 @@
 .subscribe {
   height: 600px;
   background: rgba(255, 0, 0, 0.05);
-  margin: 50px 140px 0px 140px;
-  background-position: center;
+  margin: 50px 140px 120px 140px;
   border-radius: 16px;
   background-repeat: no-repeat;
   margin-top: 120px;
@@ -315,10 +314,15 @@
   justify-content: center;
 }
 .subscribe-input input {
-  padding: 20px 90px;
+  width: 500px;
+  height: 60px;
   border: none;
   border-bottom-left-radius: 50px;
   border-top-left-radius: 50px;
+  font-family: Inter;
+  padding-left: 30px;
+  font-size: 18px;
+  
 }
 .subscribe-input button {
   padding: 20px 45px;
@@ -364,7 +368,76 @@
   font-size: 18px;
   font-weight: 400;
   text-align: left;
-  position: absolute;
-  left: 25px;
-  top: 18px;
+}
+footer {
+  background: #070211;
+  color: #fff;
+  padding: 120px 140px;
+}
+.footer-row {
+  display: flex;
+  margin-bottom: 50px;
+}
+.footer-col {
+  width: 50%;
+}
+.address {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.number {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 300px;
+}
+.website {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+.website img {
+  margin-right: 10px;
+}
+.number img {
+  margin-right: 10px;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.089);
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 48px 0px;
+}
+.copyright {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.unsubscribe {
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 665px;
+}
+.footer-row1 {
+  display: flex;
+  margin-top: 50px;
 }
